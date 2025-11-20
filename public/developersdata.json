@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Epic Games",
+    "photo": "https://i.ibb.co.com/1cMNqbL/epic-games.png",
+    "games": ["Fortnite", "Unreal Tournament", "Gears of War"],
+    "website": "https://www.epicgames.com"
+  },
+  {
+    "id": 2,
+    "name": "CD Projekt",
+    "photo": "https://i.ibb.co.com/vv1PdQFG/cdp-004-1024x760-1024x760.jpg",
+    "games": ["The Witcher 3", "Cyberpunk 2077"],
+    "website": "https://www.cdprojekt.com"
+  },
+  {
+    "id": 3,
+    "name": "Valve",
+    "photo": "https://i.ibb.co.com/BFLSGhW/Valve-Logo.png",
+    "games": ["Half-Life", "Dota 2", "CS:GO"],
+    "website": "https://www.valvesoftware.com"
+  },
+  {
+    "id": 4,
+    "name": "Ubisoft",
+    "photo": "https://i.ibb.co.com/m57z9xWW/Ubisoft-Logo-960x540.jpg",
+    "games": ["Assassin's Creed", "Far Cry", "Watch Dogs"],
+    "website": "https://www.ubisoft.com"
+  }
+]

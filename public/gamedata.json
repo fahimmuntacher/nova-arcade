@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "title": "Player Unknowns Battle Ground: PUBG",
+    "coverPhoto": "https://i.ibb.co.com/1JzqFPKZ/WALLPAPER-PUBG.jpg",
+    "category": "FPS",
+    "downloadLink": "https://play.google.com/store/apps/details?id=com.tencent.ig&pcampaignid=web_share",
+    "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
+    "ratings": "4.5",
+    "developer": "Krafton"
+  },
+  {
+    "id": "2",
+    "title": "Fortnite",
+    "coverPhoto": "https://i.ibb.co.com/Y44rQSpz/Fortnite-Desktop-Wallpapers-HD.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.epicgames.com/fortnite/en-US/home",
+    "description": "Fortnite is a vibrant battle royale game featuring building mechanics, fast-paced combat, and seasonal content.",
+    "ratings": "4.7",
+    "developer": "Epic Games"
+  },
+  {
+    "id": "3",
+    "title": "Call of Duty: Mobile",
+    "coverPhoto": "https://i.ibb.co.com/PG7XqkRz/gameplay-Call-Of-Duty-Mobile-Baileygameplay-Call-Of-Duty-Call-Of-Duty-Mobile-BATTLE-gameplay-FLEX.jpg",
+    "category": "FPS",
+    "downloadLink": "https://www.callofduty.com/mobile",
+    "description": "COD Mobile delivers console-quality FPS action with multiplayer and battle royale modes optimized for mobile devices.",
+    "ratings": "4.6",
+    "developer": "Activision"
+  },
+  {
+    "id": "4",
+    "title": "Among Us",
+    "coverPhoto": "https://i.ibb.co.com/5WhZfZPm/Among-Us-Game-Wallpaper-i-Phone-Amoung-Android-2020-Video-Us-Playstore-Appstore.jpg",
+    "category": "Party",
+    "downloadLink": "https://www.innersloth.com/gameAmongUs.php",
+    "description": "Among Us is a multiplayer social deduction game where players work together to complete tasks while identifying impostors.",
+    "ratings": "4.3",
+    "developer": "Innersloth"
+  },
+  {
+    "id": "5",
+    "title": "Minecraft",
+    "coverPhoto": "https://i.ibb.co.com/vx5wLRkq/download.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://www.minecraft.net/en-us",
+    "description": "Minecraft is a sandbox game allowing players to build and explore infinite worlds, craft items, and survive challenging environments.",
+    "ratings": "4.8",
+    "developer": "Mojang"
+  },
+  {
+    "id": "6",
+    "title": "Genshin Impact",
+    "coverPhoto": "https://i.ibb.co.com/0jLnfV2P/download-1.jpg",
+    "category": "RPG",
+    "downloadLink": "https://genshin.hoyoverse.com/en/",
+    "description": "Genshin Impact is an open-world RPG with action combat, elemental magic, and a rich story across fantastical worlds.",
+    "ratings": "4.6",
+    "developer": "HoYoverse"
+  },
+  {
+    "id": "7",
+    "title": "League of Legends: Wild Rift",
+    "coverPhoto": "https://i.ibb.co.com/BV8nc0cW/LOL-Wild-Rift.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://wildrift.leagueoflegends.com/en-us/",
+    "description": "Wild Rift brings the classic League of Legends experience to mobile with fast-paced 5v5 MOBA action.",
+    "ratings": "4.4",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "8",
+    "title": "Clash of Clans",
+    "coverPhoto": "https://i.ibb.co.com/Wvcmp02s/Clash-of-clans.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/clashofclans/",
+    "description": "Clash of Clans is a strategic village-building game where players create armies and battle against others online.",
+    "ratings": "4.5",
+    "developer": "Supercell"
+  },
+  {
+    "id": "9",
+    "title": "Brawl Stars",
+    "coverPhoto": "https://i.ibb.co.com/9HF7SZFH/download-2.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://supercell.com/en/games/brawlstars/",
+    "description": "Brawl Stars is a fast-paced multiplayer arena brawler featuring unique characters, abilities, and battle modes.",
+    "ratings": "4.4",
+    "developer": "Supercell"
+  },
+  {
+    "id": "10",
+    "title": "Valorant",
+    "coverPhoto": "https://i.ibb.co.com/n9VH7mc/download-3.jpg",
+    "category": "FPS",
+    "downloadLink": "https://playvalorant.com/en-us/",
+    "description": "Valorant is a tactical FPS with hero-based abilities and competitive multiplayer gameplay.",
+    "ratings": "4.7",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "11",
+    "title": "Hearthstone",
+    "coverPhoto": "https://i.ibb.co.com/rKcX4p7t/hearthstone.jpg",
+    "category": "Card Game",
+    "downloadLink": "https://playhearthstone.com/",
+    "description": "Hearthstone is a collectible card game with strategic battles, deck-building, and fantasy lore from the Warcraft universe.",
+    "ratings": "4.3",
+    "developer": "Blizzard Entertainment"
+  },
+  {
+    "id": "12",
+    "title": "Pokemon GO",
+    "coverPhoto": "https://i.ibb.co.com/mVrzpT3c/download-4.jpg",
+    "category": "AR / Adventure",
+    "downloadLink": "https://pokemongolive.com/",
+    "description": "Pokemon GO is an augmented reality mobile game where players catch Pokémon in the real world using their mobile devices.",
+    "ratings": "4.2",
+    "developer": "Niantic"
+  },
+  {
+    "id": "13",
+    "title": "Stumble Guys",
+    "coverPhoto": "https://i.ibb.co.com/hx19Lpj8/download-5.jpg",
+    "category": "Party",
+    "downloadLink": "https://www.kitka.games/stumble-guys",
+    "description": "Stumble Guys is a massively multiplayer party knockout game with wacky physics and fun obstacle courses.",
+    "ratings": "4.1",
+    "developer": "Kitka Games"
+  },
+  {
+    "id": "14",
+    "title": "Dead by Daylight Mobile",
+    "coverPhoto": "https://i.ibb.co.com/KczbQ5PP/Best-Games-Like-Dead-by-Daylight-Android-i-OS-in-2023.jpg",
+    "category": "Horror",
+    "downloadLink": "https://deadbydaylight.com/",
+    "description": "Dead by Daylight Mobile is a multiplayer horror survival game where survivors escape from a killer before it’s too late.",
+    "ratings": "4.4",
+    "developer": "Behaviour Interactive"
+  },
+  {
+    "id": "15",
+    "title": "Terraria",
+    "coverPhoto": "https://i.ibb.co.com/Jjg8DfC5/I-play-terraria-in-my-free-time-i-am-good-at-terraria-i-know-how-a-lot-of-items-are-made-and-i-know.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://terraria.org/",
+    "description": "Terraria is an open-ended sandbox adventure game with crafting, exploration, and combat.",
+    "ratings": "4.6",
+    "developer": "Re-Logic"
+  },
+  {
+    "id": "16",
+    "title": "Roblox",
+    "coverPhoto": "https://i.ibb.co.com/QjxggVBh/Roblox-Promo-Codes-for-June-2025.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://www.roblox.com/",
+    "description": "Roblox is a global platform where players can create, share, and play games created by others.",
+    "ratings": "4.5",
+    "developer": "Roblox Corporation"
+  },
+  {
+    "id": "17",
+    "title": "Among Trees",
+    "coverPhoto": "https://i.ibb.co.com/7t5TtW7S/download-6.jpg",
+    "category": "Survival",
+    "downloadLink": "https://amongtrees.com/",
+    "description": "Among Trees is a relaxing survival sandbox game set in a beautiful forest with exploration, crafting, and building.",
+    "ratings": "4.3",
+    "developer": "FJRD Interactive"
+  },
+  {
+    "id": "18",
+    "title": "Fall Guys",
+    "coverPhoto": "https://i.ibb.co.com/7tFL0bRL/Fall-Guys.jpg",
+    "category": "Party",
+    "downloadLink": "https://fallguys.com/",
+    "description": "Fall Guys is a massively multiplayer party game with obstacle courses, colorful characters, and wacky challenges.",
+    "ratings": "4.4",
+    "developer": "Mediatonic"
+  },
+  {
+    "id": "19",
+    "title": "League of Legends",
+    "coverPhoto": "https://i.ibb.co.com/WWFBmcbv/download-7.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://www.leagueoflegends.com/",
+    "description": "League of Legends is a 5v5 multiplayer online battle arena game featuring champions, strategy, and competitive play.",
+    "ratings": "4.7",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "20",
+    "title": "Cuphead",
+    "coverPhoto": "https://i.ibb.co.com/2YW0k9WS/for-reference.jpg",
+    "category": "Platformer",
+    "downloadLink": "https://www.cupheadgame.com/",
+    "description": "Cuphead is a run-and-gun platformer with hand-drawn animations, challenging levels, and unique boss fights.",
+    "ratings": "4.6",
+    "developer": "StudioMDHR"
+  }
+]
