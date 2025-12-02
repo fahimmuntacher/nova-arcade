@@ -11,19 +11,22 @@ const Banner = () => {
   const slides = [
     {
       id: 1,
-      image: "https://i.ibb.co.com/vvPSkJqK/Fortnite-HD-HD-Games-4k-Wallpaper-Image-Background-Photo.jpg",
+      image:
+        "https://i.ibb.co.com/vvPSkJqK/Fortnite-HD-HD-Games-4k-Wallpaper-Image-Background-Photo.jpg",
       title: "Discover Epic Worlds 🌌",
       subtitle: "Explore the best indie and AAA games in one place.",
     },
     {
       id: 2,
-      image: "https://i.ibb.co.com/NgK7pTkF/4-K-Wallpaper-For-Mobile-1920-X1080-Pubg-Gallery.jpg",
+      image:
+        "https://i.ibb.co.com/NgK7pTkF/4-K-Wallpaper-For-Mobile-1920-X1080-Pubg-Gallery.jpg",
       title: "Join the Battle ⚔️",
       subtitle: "Experience the thrill of online action and adventure.",
     },
     {
       id: 3,
-      image: "https://i.ibb.co.com/SX4GqZ1r/40-Call-of-Duty-Wallpapers-Free-download-Best-Collection.jpg",
+      image:
+        "https://i.ibb.co.com/SX4GqZ1r/40-Call-of-Duty-Wallpapers-Free-download-Best-Collection.jpg",
       title: "Level Up Your Game 🚀",
       subtitle: "Play. Discover. Support. All in one gaming platform.",
     },
@@ -41,14 +44,13 @@ const Banner = () => {
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <div className="w-full h-[90vh] flex flex-col md:flex-row items-center justify-between p-6 md:p-12 lg:p-20 bg-black px-15">
-
+            <div className="w-full h-auto md:h-[90vh] flex flex-col md:flex-row items-center justify-between p-6 md:p-12 lg:p-20 bg-black px-15">
               {/* LEFT — IMAGE */}
-              <div className="w-full md:w-1/2 h-[45vh] md:h-full flex justify-center">
+              <div className="w-full md:w-1/2 h-auto md:h-full flex justify-center items-center">
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="w-full h-full object-cover rounded-xl shadow-2xl"
+                  className="w-full h-auto object-contain md:h-full md:object-cover rounded-xl shadow-2xl"
                 />
               </div>
 
@@ -63,11 +65,11 @@ const Banner = () => {
 
                 <Link to="/games">
                   <button className="px-8 py-4 bg-green-500 hover:bg-blue-500 transition-all duration-300 rounded-xl text-black font-bold text-xl flex items-center gap-3 shadow-xl">
-                    View All Games <MdOutlineArrowOutward className="text-3xl" />
+                    View All Games{" "}
+                    <MdOutlineArrowOutward className="text-3xl" />
                   </button>
                 </Link>
               </div>
-
             </div>
           </SwiperSlide>
         ))}
