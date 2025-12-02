@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 font-poppins shadow-base-300">
-      <div className="bg-black flex justify-between items-center px-6 py-3 shadow-sm">
+      <div className="bg-black flex justify-between items-center px-15 py-3 shadow-sm">
         {/* Logo */}
         <Link to="/">
           <img src={logo} alt="" className=" h-10 md:h-[60px] w-full rounded-2xl" />
@@ -56,8 +56,8 @@ const Navbar = () => {
           to={user ? "/my-profile" : "/login"}
           className={`flex items-center gap-3 px-6 py-3 rounded-full font-semibold text-xl shadow-lg transition-all duration-300 ${
             user
-              ? "bg-[#101010] text-white hover:bg-[#00ff80] hover:text-black"
-              : "bg-[#00ff80] text-black hover:bg-[#101010] hover:text-white"
+              ? "bg-blue-500 text-white hover:bg-[#00ff80] "
+              : "bg-[#00ff80] text-black hover:bg-blue-500 hover:text-white"
           }`}
         >
           {user ? (
