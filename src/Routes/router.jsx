@@ -40,7 +40,7 @@ export const router = createBrowserRouter([
             },
             { 
                 path: "/game-details/:id", 
-                element: <ProtectedRoute><GameDetails></GameDetails></ProtectedRoute>
+                element: <GameDetails></GameDetails>
             },
             { 
                 path: "/login", 

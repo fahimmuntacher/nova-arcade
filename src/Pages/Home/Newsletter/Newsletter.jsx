@@ -4,9 +4,8 @@ import newsletter from "../../../assets/newsletter.jpg";
 
 const Newsletter = () => {
   return (
-    <section className="relative bg-[#aac3ff] rounded-t-[40px] sm:rounded-t-[70px] sm:-mt-16 -top-38 z-40 shadow-[0_0_30px_rgb(170,195,255)] border-t border-[#00ff8e] pb-20 overflow-hidden pt-16">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-around gap-10 px-6 sm:px-10 py-16 bg-white rounded-3xl shadow-2xl transform md:rotate-0">
-        
+    <section className="relative bg-white rounded-t-[40px] sm:rounded-t-[70px] sm:-mt-16 -top-38 z-40 shadow-[0_0_30px_rgba(0,255,142,0.2)] border-t border-[#00ff8e] pb-20 overflow-hidden pt-16 h-160">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-around gap-10 px-4 sm:px-8 lg:px-15 py-16 rounded-3xl shadow-2xl border border-[#00ff8e]">
         {/* Image */}
         <motion.img
           src={newsletter}
@@ -59,4 +58,3 @@ const Newsletter = () => {
 };
 
 export default Newsletter;
-    

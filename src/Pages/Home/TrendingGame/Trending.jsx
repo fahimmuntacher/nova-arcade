@@ -3,15 +3,14 @@ import { motion } from "framer-motion";
 import useData from "../../../Hooks/useData";
 import "../home.css";
 import { Link } from "react-router";
+import LoadingSpinner from "../../../Components/Loading/LoadingSpinner";
 
 const Trending = () => {
   const { games, loading, error } = useData();
 
   if (loading)
     return (
-      <p className="text-center text-white text-xl py-10 animate-pulse">
-        Loading trending games...
-      </p>
+     <LoadingSpinner></LoadingSpinner>
     );
   if (error)
     return (
@@ -36,7 +35,7 @@ const Trending = () => {
       </motion.h2>
 
       {/* Game Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 px-6 sm:px-10 md:px-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 px-15 sm:px-10 md:px-16">
         {trendingGames.map((game, i) => (
           <motion.div
             key={game.id}

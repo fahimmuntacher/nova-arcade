@@ -3,6 +3,7 @@ import Banner from './Banner/Banner';
 import HomeAbout from './About/HomeAbout';
 import Trending from './TrendingGame/Trending';
 import Newsletter from './Newsletter/Newsletter';
+import Testimonials from './Testimonials/Testimonials';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <HomeAbout></HomeAbout>
             <Trending></Trending>
             <Newsletter></Newsletter>
+            <Testimonials></Testimonials>
         </div>
     );
 };
