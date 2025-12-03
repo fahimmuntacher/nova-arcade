@@ -45,7 +45,7 @@ const Banner = () => {
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <div className="w-full h-[75vh] md:h-[90vh] flex flex-col md:flex-row items-center justify-between bg-black p-6 md:p-12 lg:p-20">
+            <div className="w-full h-[75vh] md:h-[80vh] flex flex-col md:flex-row items-center justify-between bg-black p-6 md:p-12 lg:p-20">
               
               {/* LEFT — FIXED HEIGHT IMAGE */} 
               <div className="w-full md:w-1/2 h-full flex justify-center items-center">

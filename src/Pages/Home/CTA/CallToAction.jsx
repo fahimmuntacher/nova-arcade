@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaDiscord, FaGamepad } from "react-icons/fa";
+import { Link } from "react-router";
 
 const CallToAction = () => {
   return (
@@ -25,19 +26,20 @@ const CallToAction = () => {
           <motion.div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center md:justify-start">
             <motion.a
               whileHover={{ scale: 1.05, backgroundColor: "#00ff8e" }}
-              href="#"
-              className="flex items-center gap-2 px-6 py-3 bg-black text-green-400 font-semibold rounded-full shadow-lg transition-all duration-300"
+              href="https://discord.com/"
+              target="_blank"
+              className="flex items-center gap-2 px-6 py-3 bg-black text-green-400 font-semibold rounded-full shadow-lg transition-all  hover:text-green-900"
             >
               <FaDiscord /> Join Discord
             </motion.a>
 
+            <Link to="/games">
             <motion.a
               whileHover={{ scale: 1.05, backgroundColor: "#00ff8e" }}
-              href="#"
-              className="flex items-center gap-2 px-6 py-3 bg-black text-green-400 font-semibold rounded-full shadow-lg transition-all duration-300"
+              className="flex items-center gap-2 px-6 py-3 bg-black text-green-400 font-semibold rounded-full shadow-lg transition-all  hover:text-green-900"
             >
               <FaGamepad /> Explore Games
-            </motion.a>
+            </motion.a></Link>
           </motion.div>
         </div>
 
