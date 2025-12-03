@@ -43,7 +43,7 @@ const testimonialsData = [
 
 const Testimonials = () => {
   return (
-    <section className="relative bg-black rounded-t-[40px] sm:rounded-t-[70px] sm:-mt-16 -top-38 z-40 shadow-[0_0_30px_rgba(0,255,142,0.2)] border-t border-[#00ff8e] pb-20 overflow-hidden pt-16 px-4 sm:px-8 lg:px-15">
+    <section className="relative bg-black rounded-t-[40px] sm:rounded-t-[70px] sm:-mt-16 -top-38 z-40 shadow-[0_0_30px_rgba(0,255,142,0.2)] border-t border-[#00ff8e] pb-20 overflow-hidden pt-16 px-4 sm:px-8 lg:px-15 h-150">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}

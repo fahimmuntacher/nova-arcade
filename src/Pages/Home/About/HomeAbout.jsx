@@ -14,9 +14,9 @@ const HomeAbout = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
-      className="bg-white rounded-t-[60px] sm:rounded-t-[90px] relative -top-12 sm:-top-16 z-40 shadow-2xl pb-20 sm:pb-32 px-4 sm:px-8 lg:px-15"
+      className="bg-white rounded-t-[60px] sm:rounded-t-[90px] relative -top-8 z-40 shadow-xl pb-20 sm:pb-32 px-4 sm:px-8 lg:px-16"
     >
-      {/* ⬆ Marquee Section */}
+      {/* MARQUEE */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -26,12 +26,7 @@ const HomeAbout = () => {
       >
         <Marquee speed={60} gradient={false}>
           <div className="pt-8 sm:pt-16 flex items-center gap-8 sm:gap-14">
-            {[
-              "Art direction",
-              "Game development",
-              "Game design",
-              "Multiplatform development",
-            ].map((text, i) => (
+            {["Art direction", "Game development", "Game design", "Multiplatform development"].map((text, i) => (
               <React.Fragment key={i}>
                 <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold uppercase whitespace-nowrap text-black">
                   {text}
@@ -47,9 +42,9 @@ const HomeAbout = () => {
         </Marquee>
       </motion.div>
 
-      {/* Main About + Stats */}
-      <div className="max-w-7xl mx-auto mt-16 grid grid-cols-1 lg:grid-cols-2 gap-20 px-4 sm:px-8 lg:px-15">
-        {/* LEFT — TEXT + IMAGE */}
+      {/* MAIN SECTION */}
+      <div className="max-w-7xl mx-auto mt-16 grid grid-cols-1 lg:grid-cols-2 gap-20 px-2 sm:px-4 lg:px-8">
+        {/* LEFT CONTENT */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -58,14 +53,12 @@ const HomeAbout = () => {
           className="flex flex-col justify-start w-full"
         >
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-snug text-gray-500">
-            <span className="text-black">NovaArcade</span> is your ultimate
-            destination for discovering and supporting{" "}
-            <span className="text-black">indie games</span>. Play, discover &
-            connect all in one place!
+            <span className="text-black">NovaArcade</span> is your ultimate destination for discovering and supporting{" "}
+            <span className="text-black">indie games</span>. Play, discover & connect all in one place!
           </h2>
 
           <div className="mt-10 flex flex-col md:flex-row items-center gap-10">
-            {/* Image Card */}
+            {/* IMAGE CARD */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -80,7 +73,7 @@ const HomeAbout = () => {
               />
             </motion.div>
 
-            {/* Description */}
+            {/* TEXT */}
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -89,9 +82,8 @@ const HomeAbout = () => {
               className="text-center md:text-left"
             >
               <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-                We spotlight indie developers building the next generation of
-                creative experiences. NovaArcade empowers creators by giving
-                them a dedicated space where passion meets discovery.
+                We spotlight indie developers building the next generation of creative experiences. 
+                NovaArcade empowers creators by giving them a dedicated space where passion meets discovery.
               </p>
 
               <Link to="/about">
@@ -106,7 +98,7 @@ const HomeAbout = () => {
           </div>
         </motion.div>
 
-        {/* RIGHT — Stats */}
+        {/* RIGHT STATS */}
         <motion.div
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -116,11 +108,7 @@ const HomeAbout = () => {
         >
           <div className="text-center flex flex-col gap-16 w-full">
             {[
-              {
-                end: 10,
-                text: "years supporting indie developers",
-                suffix: "+",
-              },
+              { end: 10, text: "years supporting indie developers", suffix: "+" },
               { end: 50, text: "games featured in the library", suffix: "+" },
               { end: 5, text: "downloads of all-time games", suffix: "M+" },
             ].map((item, index) => (

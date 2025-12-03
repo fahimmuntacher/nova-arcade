@@ -4,6 +4,7 @@ import HomeAbout from './About/HomeAbout';
 import Trending from './TrendingGame/Trending';
 import Newsletter from './Newsletter/Newsletter';
 import Testimonials from './Testimonials/Testimonials';
+import CallToAction from './CTA/CallToAction';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Trending></Trending>
             <Newsletter></Newsletter>
             <Testimonials></Testimonials>
+            <CallToAction></CallToAction>
         </div>
     );
 };

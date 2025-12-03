@@ -5,7 +5,7 @@ import { ToastContainer } from 'react-toastify';
 
 const MainLayouts = () => {
   return (
-    <div className='flex justify-between flex-col min-h-screen'>
+    <div className='flex flex-col min-h-screen'>
         <header>
             <Header></Header>
         </header>

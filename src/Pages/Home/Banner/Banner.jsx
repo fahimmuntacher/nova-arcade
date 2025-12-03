@@ -4,6 +4,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+
 import { Link } from "react-router";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
@@ -20,7 +21,7 @@ const Banner = () => {
       id: 2,
       image:
         "https://i.ibb.co.com/NgK7pTkF/4-K-Wallpaper-For-Mobile-1920-X1080-Pubg-Gallery.jpg",
-      title: "Join the Battle ⚔️",
+      title: "Join the Battle Today⚔️",
       subtitle: "Experience the thrill of online action and adventure.",
     },
     {
@@ -33,24 +34,25 @@ const Banner = () => {
   ];
 
   return (
-    <div className="w-full ">
+    <div className="w-full">
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         loop={true}
         autoplay={{ delay: 4000, disableOnInteraction: false }}
         navigation
         pagination={{ clickable: true }}
-        className="mySwiper "
+        className="mySwiper"
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <div className="w-full h-auto md:h-[90vh] flex flex-col md:flex-row items-center justify-between p-6 md:p-12 lg:p-20 bg-black px-15">
-              {/* LEFT — IMAGE */}
-              <div className="w-full md:w-1/2 h-auto md:h-full flex justify-center items-center">
+            <div className="w-full h-[75vh] md:h-[90vh] flex flex-col md:flex-row items-center justify-between bg-black p-6 md:p-12 lg:p-20">
+              
+              {/* LEFT — FIXED HEIGHT IMAGE */} 
+              <div className="w-full md:w-1/2 h-full flex justify-center items-center">
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="w-full h-auto object-contain md:h-full md:object-cover rounded-xl shadow-2xl"
+                  className="w-full h-full object-cover rounded-2xl shadow-xl"
                 />
               </div>
 
@@ -65,11 +67,12 @@ const Banner = () => {
 
                 <Link to="/games">
                   <button className="px-8 py-4 bg-green-500 hover:bg-blue-500 transition-all duration-300 rounded-xl text-black font-bold text-xl flex items-center gap-3 shadow-xl">
-                    View All Games{" "}
+                    View All Games
                     <MdOutlineArrowOutward className="text-3xl" />
                   </button>
                 </Link>
               </div>
+
             </div>
           </SwiperSlide>
         ))}
