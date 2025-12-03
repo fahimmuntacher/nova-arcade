@@ -10,7 +10,7 @@ const CallToAction = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10"
+        className="w-full mx-auto flex flex-col md:flex-row items-center justify-between gap-10"
       >
         {/* Text Content */}
         <div className="text-center md:text-left w-full md:w-1/2">
@@ -18,7 +18,8 @@ const CallToAction = () => {
             Join the NovaArcade Community!
           </h2>
           <p className="text-gray-700 text-lg sm:text-xl mb-8">
-            Connect with indie game lovers, share your passion, discover hidden gems, and be part of a growing gaming family.
+            Connect with indie game lovers, share your passion, discover hidden
+            gems, and be part of a growing gaming family.
           </p>
 
           <motion.div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center md:justify-start">

@@ -34,7 +34,7 @@ const Banner = () => {
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-full ">
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         loop={true}
@@ -66,7 +66,7 @@ const Banner = () => {
                 </p>
 
                 <Link to="/games">
-                  <button className="px-8 py-4 bg-green-500 hover:bg-blue-500 transition-all duration-300 rounded-xl text-black font-bold text-xl flex items-center gap-3 shadow-xl">
+                  <button className="px-8 py-4 bg-green-500 hover:bg-blue-500 transition-all duration-300 rounded-xl text-black font-bold text-xl flex items-center gap-3 shadow-xl mb-10 sm:mb-0">
                     View All Games
                     <MdOutlineArrowOutward className="text-3xl" />
                   </button>
